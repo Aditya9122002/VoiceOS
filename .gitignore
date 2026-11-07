@@ -1,0 +1,25 @@
+# Environment files. Real values live here and must never be committed.
+# The .env.example templates are the documented, committed versions.
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
